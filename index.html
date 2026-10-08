@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumo Invisible</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div id="inicio">
+        <header class="contenedor">
+            <a class="logo" href="#inicio"><img src="img/logo.svg" alt="logo"></a>
+            <div class="menu">
+                <a id="hamburg" href="#menu"> <img src="img/menu.jpg" alt="hamburgesa"></a>
+                <nav id="menu">
+                    <a href="#recursos">El costo</a>
+                    <a href="#detras">Detrás</a>
+                    <a href="#habitos">Tus Habitos</a>
+                </nav>
+            </div>
+        </header>
+        <div class="linea contenedor"></div>
+        <section class="portada contenedor">
+            <p class="etiqueta">DETRÁS DE CADA RESPUESTA</p>
+            <h1 id="titulo"> Cada prompt tiene <br>un costo <span> invisible.</span></h1>
+            <a class="boton" href="#recursos">Descubrir</a>
+        </section>
+    </div>
+    <main>
+        <section id="recursos" class="contenedor recursos">
+            <div class="lista-recursos">
+                <article>
+                    <img src="img/energia.jpg" alt="Energia electrica">
+                    <h3>Energía</h3>
+                    <p> Para generar una respuesta, los servidores necesitan
+                        electricidad. También la necesitan para mantenerse funcionando.</p>
+                </article>
+                <article>
+                    <img src="img/agua.jpg" alt="Agua oceano">
+                    <h3>Agua</h3>
+                    <p> Algunos sistemas de refrigeración usan agua para enfriar
+                        los equipos. El consumo depende del centro de datos.</p>
+                </article>
+                <article class="recurso-extra">
+                    <img src="img/materiales.jpg" alt="Materiales">
+                    <h3>Materiales</h3>
+                    <p> Los chips y equipos requieren materias primas y procesos
+                        de fabricación. Lo digital también necesita recursos físicos.</p>
+                </article>
+                <article class="recurso-extra">
+                    <img src="img/Infraestructura.jpg" alt="Infraestructura">
+                    <h3>Infraestructura</h3>
+                    <p> La IA funciona en centros de datos: edificios con servidores,
+                        redes y sistemas de refrigeración.</p>
+                </article>
+            </div>
+
+        </section>
+        <section id="detras" class="detras">
+            <img class="foto-servidores" src="img/bloque-principal.jpg" alt="Imagen principal">
+            <div class="texto-detras">
+                <p class="etiqueta"> DETRÁS DE LA PANTALLA</p>
+                <h2 id="titulo-detras">Lo que no vemos.
+
+                </h2>
+                <p> Mandás una consulta y recibís una respuesta en segundos.
+                    En ese tiempo, servidores procesan tu pedido. Aunque el
+                    trabajo ocurre lejos de tu pantalla, necesita electricidad,
+                    equipos y refrigeración.</p>
+                <p>
+                    No todos los prompts consumen lo mismo. El impacto cambia
+                    según el modelo, la tarea, la extensión de la respuesta
+                    y la infraestructura utilizada.
+                </p>
+                <a class="boton" href="https://www.iea.org/reports/energy-and-ai">Mas</a>
+            </div>
+            <div class="dato">
+                <p class="etiqueta">TU PANTALLA A UN SERVIDOR</p>
+                <p class="frase">La nube <br>está en <br><strong>La tierra.</strong></p>
+            </div>
+            <div class="foto-placa">
+                <img src="img/bloque-boton.jpg" alt="tierra">
+                <a class="boton" href="#habitos">Mis Habitos</a>
+            </div>
+        </section>
+        <section id="habitos" class="contenedor habitos">
+            <div class="lista-habitos">
+                <article>
+                    <div class="imagen-habito">
+                        <img src="img/pensalo.jpg" alt="Imagen Habitos">
+                        <span> ANTES DE ENVIAR </span>
+                    </div>
+                    <h3>Primero, pensalo</h3>
+                    <p> Definí qué necesitás y agregá contexto a tu consulta.
+                        Una pregunta clara puede evitar varios intentos.</p>
+                    <a href="#guia">Elegir este habito</a>
+                </article>
+                <article>
+                    <div class="imagen-habito">
+                        <img src="img/elegir.jpg" alt="Imagen habito 2">
+                        <span> ANTE DE ELEGIR </span>
+                    </div>
+                    <h3>La herramienta justa</h3>
+                    <p>
+                        Para una cuenta simple o un dato que ya tenés, quizá
+                        alcance con una calculadora, tus apuntes o una búsqueda.
+                    </p>
+                    <a href="#guia">Elegir este habito</a>
+                </article>
+                <article class="habito-extra">
+                    <div class="imagen-habito">
+                        <img src="img/repetir.jpg" alt="Imagen habito 2">
+                        <span> ANTES DE REPETIR </span>
+                    </div>
+                    <h3>¿Otra versión más?</h3>
+                    <p>
+                        Leé la respuesta antes de regenerarla. Si falta algo,
+                        pedí un cambio concreto en lugar de empezar de nuevo.
+                    </p>
+                    <a href="#guia">Elegir este habito</a>
+                </article>
+            </div>
+        </section>
+        <section id="guia" class="guia">
+            <div class="contenedor">
+                <h2 id="titulo-guia">Repensá tu próximo prompt.
+                </h2>
+                <form id="formulario" action="#guia" method="get">
+                    <div class="campos">
+                        <input id="correo" class="correo" type="email" placeholder="Email" required>
+                        <button class="boton" type="submit">Enviar
+                        </button>
+                    </div>
+                    <label class="aceptacion">
+                        <input class="casilla" type="checkbox" required>Enviar sii
+                    </label>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Consumo invisible</p>
+    </footer>
+</body>
+
+</html>
